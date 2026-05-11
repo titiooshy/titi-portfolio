@@ -1,0 +1,31 @@
+.looker-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.pick-your-path {
+  color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+    width: 100%;
+    text-align: center;
+}
+
+.paths {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .pick-your-path {
+    font-size: 30px;
+  }
+}
